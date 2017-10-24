@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "MALoadingView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) MALoadingView *loadingView;
 
 @end
 
@@ -16,9 +19,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.loadingView = [[MALoadingView alloc] initWithFrame:CGRectMake(0, 0, 150, 120)];
+    self.loadingView.center = self.view.center;
+    self.loadingView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:self.loadingView];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"touched");
+    [self.loadingView startLoading];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

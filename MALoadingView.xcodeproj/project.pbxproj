@@ -13,6 +13,7 @@
 		D86B78061F9F96D700590348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86B78041F9F96D700590348 /* Main.storyboard */; };
 		D86B78081F9F96D700590348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86B78071F9F96D700590348 /* Assets.xcassets */; };
 		D86B780B1F9F96D700590348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86B78091F9F96D700590348 /* LaunchScreen.storyboard */; };
+		D86B78141F9F96EE00590348 /* MALoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D86B78131F9F96EE00590348 /* MALoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D86B78071F9F96D700590348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D86B780A1F9F96D700590348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D86B780C1F9F96D700590348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86B78121F9F96EE00590348 /* MALoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALoadingView.h; sourceTree = "<group>"; };
+		D86B78131F9F96EE00590348 /* MALoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D86B77FF1F9F96D700590348 /* AppDelegate.m */,
 				D86B78011F9F96D700590348 /* ViewController.h */,
 				D86B78021F9F96D700590348 /* ViewController.m */,
+				D86B78121F9F96EE00590348 /* MALoadingView.h */,
+				D86B78131F9F96EE00590348 /* MALoadingView.m */,
 				D86B78041F9F96D700590348 /* Main.storyboard */,
 				D86B78071F9F96D700590348 /* Assets.xcassets */,
 				D86B78091F9F96D700590348 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86B78031F9F96D700590348 /* ViewController.m in Sources */,
+				D86B78141F9F96EE00590348 /* MALoadingView.m in Sources */,
 				D86B78001F9F96D700590348 /* AppDelegate.m in Sources */,
 				D86B77FD1F9F96D700590348 /* main.m in Sources */,
 			);
